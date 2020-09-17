@@ -25,6 +25,7 @@
     "@angular/router": "^6.1.0",
     "@ng-bootstrap/ng-bootstrap": "^4.0.2",
     "@ngtools/webpack": "^1.2.4",
+    "angular-aria": "^1.8.0",
     "angular-captcha": "^3.5.0",
     "angular-moment-timezone": "^1.7.1",
     "bootstrap": "^4.2.1",

@@ -1,6 +1,6 @@
 <div class="complete_box">
   <app-header></app-header>
-  <div class="header_image">
+  <div class="header_image" role="img" aria-label="image for first page">
     <img
       src="assets/img/women.png"
       class="img-fluid maxWidth:100% height:auto"
@@ -16,17 +16,16 @@
         It is a long established fact that a reader will be distracted by the
         readable content of a page when looking at
       </p>
-      <div class="download_div">
+      <div class="download_div" role="img" aria-label="collections of image">
         <button class="btn-download">
           Download now
           <img src="assets/img/download.png" alt="Responsive image" />
         </button>
-        <p class="explore">explore more</p>
+        <p class="explore offset-1">explore more</p>
         <img
-          src="assets/img/right-arrow.png"
-          class="img-fluid"
+          src="assets/img/right-arrow1.png"
+          class="img-fluid offset-1"
           alt="Responsive image"
-          style="color: white"
         />
       </div>
     </div>
@@ -39,7 +38,7 @@
       <img
         src="assets/img/iphone.png"
         alt="Responsive image"
-        style="height: 500px; width: 250px; margin-top: -60px"
+        style="height: 400px; width: 250px; margin-top: -40px"
       />
       <img
         src="assets/img/iphone2.png"
@@ -47,6 +46,8 @@
         alt="Responsive image"
       />
     </div>
+  </div>
+  <div class="row">
     <div class="second_heading col-6 offset-3">
       <h2>We provide various kind of service for you</h2>
 
@@ -54,4 +55,9 @@
       <h5 class="offset-4">service for you</h5>
     </div>
   </div>
+
+  <br />
+  <app-card></app-card>
+  <app-question></app-question>
+  <app-iphone-card></app-iphone-card>
 </div>
